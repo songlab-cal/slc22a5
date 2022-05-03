@@ -3,7 +3,8 @@ Variant effect prediction for SLC22A5 transporter gene using Potts models.
 
 # Wildtype
 
-```wget http://s3.amazonaws.com/songlabdata/slc22a5/O76082.fasta
+```
+wget http://s3.amazonaws.com/songlabdata/slc22a5/O76082.fasta
 ```
 
 # Alignments
