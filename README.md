@@ -1,13 +1,23 @@
 # slc22a5
 Variant effect prediction for SLC22A5 transporter gene using Potts models.
 
-# Wildtype
+# Colabs
+
+## Computing single mutant from trained potts models
+`slc22a5_single_mutants.ipynb` 
+
+## Training a potts model from an alignment
+`slc22a5_train_potts.ipynb`
+
+# Data
+
+## Wildtype
 
 ```
 wget http://s3.amazonaws.com/songlabdata/slc22a5/O76082.fasta
 ```
 
-# Alignments
+## Alignments
 ```
 wget http://s3.amazonaws.com/songlabdata/slc22a5/alignments/deepsequence.a3m
 wget http://s3.amazonaws.com/songlabdata/slc22a5/alignments/eve.a3m
@@ -15,7 +25,8 @@ wget http://s3.amazonaws.com/songlabdata/slc22a5/alignments/hhblits.a3m
 wget http://s3.amazonaws.com/songlabdata/slc22a5/alignments/mammals_30.a3m
 wget http://s3.amazonaws.com/songlabdata/slc22a5/alignments/vertebrates_100.a3m
 ```
-# Trained Potts models
+
+## Trained Potts models
 
 ```
 wget http://s3.amazonaws.com/songlabdata/slc22a5/potts/deepsequence.npz
