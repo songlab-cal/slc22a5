@@ -3,7 +3,7 @@ Variant effect prediction for SLC22A5 transporter gene using Potts models.
 
 # Colabs
 
-## Computing single mutant from trained potts models
+## Predicted single mutant variant effects with trained potts models
 `slc22a5_single_mutants.ipynb` 
 
 ## Training a potts model from an alignment
